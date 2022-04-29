@@ -1,0 +1,27 @@
+@import "../../common/colors.scss";
+.card-item {
+  background-color: $secondary-color;
+  cursor: pointer;
+  width: 200px;
+}
+
+.card-top {
+  height: 300px;
+  width: 100%;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+.card-bottom {
+  padding: 20px;
+}
+.card-info {
+  color: $font-primary;
+  h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+}
